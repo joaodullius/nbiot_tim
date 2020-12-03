@@ -1,0 +1,16 @@
+{
+    "format-version": 0,
+    "time": 1607012997,
+    "files": [
+        {
+            "size": 262656,
+            "file": "app_update.bin",
+            "modtime": 1607012995,
+            "load_address": 115200,
+            "version_MCUBOOT": "0.0.0+0",
+            "type": "application",
+            "board": "nrf9160dk_nrf9160",
+            "soc": "nRF9160_SICA"
+        }
+    ]
+}
