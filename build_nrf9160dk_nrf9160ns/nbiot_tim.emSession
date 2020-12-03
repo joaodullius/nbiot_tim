@@ -12,7 +12,11 @@
  <Memory4/>
  <Project>
   <ProjectSessionItem path="nbiot_tim"/>
+  <ProjectSessionItem path="nbiot_tim;dts files"/>
   <ProjectSessionItem path="nbiot_tim;zephyr/merged.hex"/>
+  <ProjectSessionItem path="nbiot_tim;build"/>
+  <ProjectSessionItem path="nbiot_tim;build;app/libapp.a"/>
+  <ProjectSessionItem path="nbiot_tim;build;app/libapp.a;C_COMPILER__app"/>
  </Project>
  <Register1/>
  <Register2/>
@@ -36,6 +40,8 @@
  <Watch4>
   <Watches active="0" update="Never"/>
  </Watch4>
- <Files/>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="1909" useTextEdit="1" openedFrom="" useBinaryEdit="0" left="0" path="../src/main.c" selected="1" top="1884" codecName="Default"/>
+ </Files>
  <ARMCrossStudioWindow activeProject="zephyr/merged.hex" fileDialogDefaultFilter="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.hxx" autoConnectTarget="J-Link" buildConfiguration="Common" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>

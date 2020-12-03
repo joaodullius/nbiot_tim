@@ -280,12 +280,7 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //NCS Toolchain DTC
 DTC:FILEPATH=C:/Nordic/nrf/v1.4.0/toolchain/opt/bin/dtc.exe
 
-//If desired, you can build the application using the DT configuration
-// settings specified in an alternate .overlay file using this
-// parameter. These settings will override the settings in the
-// board's .dts file. Multiple files may be listed, e.g. DTC_OVERLAY_FILE="dts1.overlay
-// dts2.overlay"
-DTC_OVERLAY_FILE:STRING=C:/Nordic/nrf/v1.4.0/bootloader/mcuboot/boot/zephyr/dts.overlay
+DTC_OVERLAY_FILE:STRING=C:/Nordic/nrf/v1.4.0/bootloader/mcuboot/boot/zephyr/dts.overlay C:/Nordic/nrf/v1.4.0/bootloader/mcuboot/boot/zephyr/dts.overlay C:/Nordic/nrf/v1.4.0/bootloader/mcuboot/boot/zephyr/dts.overlay C:/Nordic/nrf/v1.4.0/bootloader/mcuboot/boot/zephyr/dts.overlay C:/Nordic/nrf/v1.4.0/bootloader/mcuboot/boot/zephyr/dts.overlay
 
 //No help, variable specified on the command line.
 EXTRA_KCONFIG_TARGETS:UNINITIALIZED=menuconfig_ses
@@ -307,6 +302,12 @@ IMAGE_NAME:UNINITIALIZED=mcuboot_
 
 //Path to a program.
 IMGTOOL:FILEPATH=IMGTOOL-NOTFOUND
+
+//No help, variable specified on the command line.
+KERNEL_ELF_NAME:UNINITIALIZED=zephyr.elf
+
+//No help, variable specified on the command line.
+KERNEL_HEX_NAME:UNINITIALIZED=zephyr.hex
 
 //No help, variable specified on the command line.
 NCS_TOOLCHAIN_VERSION:UNINITIALIZED=1.4.0
@@ -436,8 +437,6 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_AR
 CMAKE_C_COMPILER_AR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_COMPILER_RANLIB

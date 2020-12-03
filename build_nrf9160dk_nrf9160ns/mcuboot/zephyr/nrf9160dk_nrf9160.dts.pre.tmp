@@ -601,3 +601,23 @@ timer2: timer@11000 {
   zephyr,code-partition = &boot_partition;
  };
 };
+/ {
+ chosen {
+  zephyr,code-partition = &boot_partition;
+ };
+};
+/ {
+ chosen {
+  zephyr,code-partition = &boot_partition;
+ };
+};
+/ {
+ chosen {
+  zephyr,code-partition = &boot_partition;
+ };
+};
+/ {
+ chosen {
+  zephyr,code-partition = &boot_partition;
+ };
+};
