@@ -1,0 +1,6 @@
+set(mcuboot_KERNEL_HEX_NAME zephyr.hex)
+set(mcuboot_ZEPHYR_BINARY_DIR C:/Nordic/projects/nbiot_tim/build_nrf9160dk_nrf9160ns/mcuboot/zephyr)
+set(mcuboot_KERNEL_ELF_NAME zephyr.elf)
+list(APPEND mcuboot_BUILD_BYPRODUCTS C:/Nordic/projects/nbiot_tim/build_nrf9160dk_nrf9160ns/mcuboot/zephyr/zephyr.hex)
+list(APPEND mcuboot_BUILD_BYPRODUCTS C:/Nordic/projects/nbiot_tim/build_nrf9160dk_nrf9160ns/mcuboot/zephyr/zephyr.elf)
+set(mcuboot_SIGNATURE_KEY_FILE root-rsa-2048.pem)

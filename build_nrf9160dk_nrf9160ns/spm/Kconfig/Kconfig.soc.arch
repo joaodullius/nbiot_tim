@@ -1,0 +1,2 @@
+osource "C:/Nordic/nrf/v1.4.0/zephyr/soc/$(ARCH)/Kconfig"
+osource "C:/Nordic/nrf/v1.4.0/zephyr/soc/$(ARCH)/*/Kconfig"
